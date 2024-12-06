@@ -145,7 +145,7 @@ class PandaPickCubeGymEnv(MujocoGymEnv):
             self.model,
             self.data,
         )
-        self._viewer.render(self.render_mode)
+        # self._viewer.render(self.render_mode)
 
     def reset(
         self, seed=None, **kwargs
